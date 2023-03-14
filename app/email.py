@@ -2,7 +2,7 @@ import boto3
 
 
 class EmailClient:
-    SENDER = "AWS Cost Alert <abhishek@learnaws.org>"
+    SENDER = "AWS Cost Alert <theja.boddu@codezeros.com>"
     SUBJECT = "Daily AWS Billing Report"
     # The email body for recipients with non-HTML email clients.
     BODY_TEXT = """AWS Billing Alerts \r\n
